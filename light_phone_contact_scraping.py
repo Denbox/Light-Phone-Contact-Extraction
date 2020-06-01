@@ -62,9 +62,9 @@ for link in links:
     driver.get(link)
     fields = driver.find_elements_by_css_selector("form>div>div>input")
     contacts.append({
-        "first" : fields[0].get_attribute("value"),
-        "last"  : fields[1].get_attribute("value"),
-        "number"     : fields[2].get_attribute("value"),
+        "first"  : fields[0].get_attribute("value"),
+        "last"   : fields[1].get_attribute("value"),
+        "number" : fields[2].get_attribute("value"),
     })
 
 # save .vcf file for contact upload
