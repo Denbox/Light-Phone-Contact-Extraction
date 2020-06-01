@@ -1,5 +1,4 @@
-# Light-Phone-Contact-Extraction
-Webscraper to save light phone web portal contacts in a .vcf file
+# Light Phone Contact Extraction
 
 If you have a light phone 2 and also can't figure out how to export your contacts, you can use this!
 
